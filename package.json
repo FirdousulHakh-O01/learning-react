@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Learning react from Akshay Saini teacher",
   "scripts": {
-    "start":"parcel index.html",
-    "build":"parcel build index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -17,7 +17,13 @@
     "url": "https://github.com/FirdousulHakh-O01/learning-react/issues"
   },
   "homepage": "https://github.com/FirdousulHakh-O01/learning-react#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1"
+  },
   "devDependencies": {
-    "parcel": "^2.11.0"
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
   }
 }
